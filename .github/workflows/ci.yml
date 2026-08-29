@@ -26,6 +26,6 @@ jobs:
       - name: Authenticate to GitHub Packages
         run: npm config set --location=user //npm.pkg.github.com/:_authToken "$GITHUB_TOKEN"
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm ci
       - run: npm test
