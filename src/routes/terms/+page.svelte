@@ -35,7 +35,7 @@
     </ul>
 
     <h2>6. Open-source software and ownership</h2>
-    <p>The MakersBrain addons are made available under the LGPL-3.0 license, and Odoo and other components retain their respective licenses. Those licenses govern code distributed under them. These service terms govern the hosted service, accounts, infrastructure, support and materials not covered by an open-source license. “MakersBrain,” its branding and non-open-source site materials may not be used in a way that suggests endorsement or causes confusion.</p>
+    <p>MakersBrain-authored software and site materials are made available under the AGPL-3.0-only license, while Odoo and third-party components retain their respective licenses. Those licenses govern code and materials distributed under them. These service terms govern the hosted service, accounts, infrastructure, support and any materials not covered by an open-source license. The “MakersBrain” name and marks may not be used in a way that suggests endorsement or causes confusion.</p>
 
     <h2>7. Third-party services</h2>
     <p>Optional features may interact with services such as Google, payment providers, email delivery, document extraction, shipping or hardware. Their own terms and privacy practices apply. We are not responsible for a third-party service, but remain responsible for our own processing and vendor choices as described in the Privacy Policy.</p>

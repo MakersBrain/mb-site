@@ -61,11 +61,11 @@
 
   <section class="band paper">
     <div class="site-wrap two-column">
-      <div><span class="eyebrow">Built on Odoo</span><h2>Not a box you can be locked out of</h2><p class="intro">MakersBrain is a set of LGPL-3 addons for Odoo 19 Community. The specialist workshop features sit on top of real accounting, stock, manufacturing and point of sale.</p><p class="quote">If we stopped tomorrow, your workshop would still open in the morning.</p></div>
+      <div><span class="eyebrow">Built on Odoo</span><h2>Not a box you can be locked out of</h2><p class="intro">MakersBrain is a set of AGPL-3 addons for Odoo 19 Community. The specialist workshop features sit on top of real accounting, stock, manufacturing and point of sale.</p><p class="quote">If we stopped tomorrow, your workshop would still open in the morning.</p></div>
       <div class="capabilities">
         <article class="capability"><h3>One database per workshop</h3><p>Your primary records are a database rather than rows mixed into a shared customer table.</p></article>
         <article class="capability"><h3>Real accounting underneath</h3><p>Invoicing, stock moves, manufacturing and point of sale are Odoo's—not a partial reimplementation.</p></article>
-        <article class="capability"><h3>Open and inspectable</h3><p>The workshop addons are LGPL-3, so their calculations and workflows can be inspected.</p></article>
+        <article class="capability"><h3>Open and inspectable</h3><p>The workshop addons are AGPL-3, so their calculations and workflows can be inspected.</p></article>
       </div>
     </div>
   </section>
