@@ -26,6 +26,9 @@ jobs:
       - name: Authenticate to GitHub Packages
         run: npm config set --location=user //npm.pkg.github.com/:_authToken "$GITHUB_TOKEN"
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          # The repository is granted Actions read access in the package
+          # settings. PACKAGES_READ_TOKEN is a temporary fallback for GitHub's
+          # current 401 on this newly created repository's workflow token.
+          GITHUB_TOKEN: ${{ secrets.PACKAGES_READ_TOKEN || github.token }}
       - run: npm ci
       - run: npm test
