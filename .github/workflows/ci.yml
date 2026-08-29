@@ -23,9 +23,9 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-          registry-url: https://npm.pkg.github.com
-          scope: '@makersbrain'
-      - run: npm ci
+      - name: Authenticate to GitHub Packages
+        run: npm config set --location=user //npm.pkg.github.com/:_authToken "$GITHUB_TOKEN"
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - run: npm ci
       - run: npm test
