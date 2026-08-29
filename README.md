@@ -6,8 +6,9 @@ disabled, deployed through Cloudflare Pages.
 
 ## Develop and verify
 
-The private `@makersbrain/ui` package is installed from GitHub Packages. Set a
-token with `read:packages` before installing:
+The public `@makersbrain/ui` package is installed from GitHub Packages. GitHub's
+npm registry still requires authentication for downloads, so set a token with
+`read:packages` before installing locally:
 
 ```sh
 export GITHUB_TOKEN=...
@@ -25,7 +26,7 @@ the output.
 - Production branch: `main`
 - Build command: `npm run build`
 - Build output directory: `build`
-- Required secret: `GITHUB_TOKEN` with read-only package access
+- Package authentication: the workflow's short-lived `GITHUB_TOKEN`
 - Custom domain: `makersbrain.app`
 
 The deployed canonical URLs are:
@@ -40,3 +41,8 @@ pages must remain public without authentication.
 Before accepting production personal data or submitting OAuth verification,
 confirm the public contact mailbox, designate the legal controller, approve the
 retention schedule, and obtain legal review of the Privacy Policy and Terms.
+
+## License
+
+MakersBrain-authored code, content, and visual assets are licensed under
+AGPL-3.0-only. Trademark rights are not granted. See [LICENSE.md](LICENSE.md).
