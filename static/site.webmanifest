@@ -1,0 +1,11 @@
+{
+  "name": "MakersBrain",
+  "short_name": "MakersBrain",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F7F3EE",
+  "theme_color": "#C05F3D",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
